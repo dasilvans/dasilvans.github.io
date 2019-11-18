@@ -1,0 +1,148 @@
+
+
+@font-face {
+  font-family: "montserrat-regular";
+  src: url("../font/montserrat/montserrat-regular-webfont.woff2") format("woff2"), url("../font/montserrat/montserrat-regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "montserrat-bold";
+  src: url("../font/montserrat/montserrat-bold-webfont.woff2") format("woff2"), url("../font/montserrat/montserrat-bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.bg-secondary {
+  background-color: #FEFEFE !important;
+}
+
+.demo-icon
+  {
+    font-family: "jdasilva";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* You can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+
+header {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 700;
+}
+
+header .header-logo {
+  position: absolute;
+  left: 32px;
+  top: 42px;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  width: 57px;
+  height: 57px;
+  background: url("../images/logo.png") no-repeat center;
+  background-size: 57px 57px;
+}
+
+.logo-center img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+/* center text */
+.home-content-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 500;
+}
+.home-content-tablecell .row {
+  position: relative;
+  padding-top: 16.2rem;
+  padding-bottom: 15rem;
+}
+.home-content-tablecell h1 {
+  font-family: "montserrat-semibold", serif;
+  font-size: 4.6rem;
+  line-height: 1.133;
+  color: #010101;
+  letter-spacing: 2px;
+}
+.home-content-tablecell h3 {
+  font-family: "montserrat-light", sans-serif;
+  font-size: 1rem;
+  color: #4E4848;
+  text-transform: uppercase;
+  letter-spacing: 1.07rem;
+  margin: .9rem 0 .9rem 0;
+}
+/* contacts-list */
+.contacts-list {
+  position: absolute;
+  right: 32px;
+  bottom: 42px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.4rem;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.contacts-list::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: 42px;
+  background-color: #010101);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 12px;
+}
+.contacts-list li {
+  padding-right: 0;
+}
+.contacts-list li a, .contacts-list li a:visited {
+  color: #010101;
+}
+.contacts-list li a:hover, 
+.contacts-list li a:focus, 
+.contacts-list li a:active {
+  color: #827F80;
+}
