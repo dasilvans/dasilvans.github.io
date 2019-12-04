@@ -119,7 +119,7 @@ header .header-logo {
 .contacts-list {
   position: absolute;
   right: 32px;
-  bottom: 42px;
+  bottom: 2.8rem;
   margin: 0;
   padding: 0;
   list-style: none;
