@@ -92,7 +92,7 @@ header .header-logo {
   vertical-align: middle;
   z-index: 500;
   font-size: 40%;
-  max-height: 70%;
+  max-height: 60%;
 }
 .home-content-tablecell .row {
   position: relative;
@@ -101,7 +101,7 @@ header .header-logo {
 }
 .home-content-tablecell h1 {
   font-family: "montserrat-semibold", serif;
-  font-size: 3.9rem;
+  font-size: 3.98rem;
   line-height: 1.133;
   letter-spacing: 1.1rem;
   color: #010101;
@@ -119,11 +119,11 @@ header .header-logo {
 .contacts-list {
   position: absolute;
   right: 32px;
-  bottom: 2.8rem;
+  bottom: 1rem;
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.75;
   text-align: center;
 }
