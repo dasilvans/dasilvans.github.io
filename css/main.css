@@ -92,6 +92,7 @@ header .header-logo {
   vertical-align: middle;
   z-index: 500;
   font-size: 40%;
+  max-height: 70%;
 }
 .home-content-tablecell .row {
   position: relative;
