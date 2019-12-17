@@ -17,8 +17,7 @@
   background-color: #FEFEFE !important;
 }
 
-.demo-icon
-  {
+.demo-icon{
     font-family: "jdasilva";
     font-style: normal;
     font-weight: normal;
@@ -51,7 +50,7 @@
    
     /* Uncomment for 3D effect */
     /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-  }
+}
 
 header {
   width: 100%;
@@ -92,7 +91,7 @@ header .header-logo {
   vertical-align: middle;
   z-index: 500;
   font-size: 40%;
-  max-height: 60%;
+  max-height: 50%;
 }
 .home-content-tablecell .row {
   position: relative;
@@ -119,7 +118,7 @@ header .header-logo {
 .contacts-list {
   position: absolute;
   right: 32px;
-  bottom: 1rem;
+  bottom: .9rem;
   margin: 0;
   padding: 0;
   list-style: none;
