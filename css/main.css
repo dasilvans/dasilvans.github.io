@@ -63,17 +63,17 @@ header {
 
 header .header-logo {
   position: absolute;
-  left: 32px;
-  top: 42px;
+  left: 1.2rem;
+  top: 1.2rem;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  width: 57px;
-  height: 57px;
+  width: 4rem;
+  height: 4rem;
   background: url("../images/logo.png") no-repeat center;
-  background-size: 57px 57px;
+  background-size: 4rem 4rem;
 }
 
 .logo-center img {
@@ -117,8 +117,8 @@ header .header-logo {
 /* contacts-list */
 .contacts-list {
   position: absolute;
-  right: 32px;
-  bottom: .9rem;
+  right: 1.2rem;
+  bottom: 1.2rem;
   margin: 0;
   padding: 0;
   list-style: none;
