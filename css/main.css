@@ -83,7 +83,7 @@ header .header-logo {
     transform: translateX(-50%) translateY(-50%);
     max-width: 70%;
     max-height: 70%;
-}
+} 
 
 /* center text */
 .home-content-tablecell {
@@ -92,7 +92,9 @@ header .header-logo {
   z-index: 500;
   font-size: 40%;
   max-height: 50%;
+  margin-bottom: 30px;
 }
+
 .home-content-tablecell .row {
   position: relative;
   padding-top: 15.2rem;
